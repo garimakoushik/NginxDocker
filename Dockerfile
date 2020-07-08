@@ -14,9 +14,9 @@ RUN apt-get install -y nginx
 ADD index.html /usr/share/nginx/html/index.html
 
 # entrypoint will run this command when container starts i.e once container is executed 
-# then /ur/sbin/nginx will be executed 
+# then /usr/sbin/nginx will be executed 
 # daemon off allows the service to run on FOReground
-ENTRYPOINT ["/ur/sbin/nginx", "-g", "daemon off;"]
+ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;"]
 
 
 
