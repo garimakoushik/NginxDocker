@@ -20,4 +20,4 @@ ENTRYPOINT ["/usr/sbin/nginx", "-g", "daemon off;"]
 
 
 
-EXPOSE 80
+EXPOSE 90
